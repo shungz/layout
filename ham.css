@@ -1,0 +1,146 @@
+/* =========================mobile===================================== */
+@media screen and (max-width:400px){
+    
+
+
+
+*   {
+    margin: 0;
+}
+
+.header-container {
+    box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+    width: 100%;
+}
+
+.read {
+    padding: 20px 19px;
+    color: #136F63 ;
+    font-size: 20px;
+    
+}
+
+
+.success {
+    align-items: right;
+    width: 120px;
+    background: #22AAA1;
+    border-radius: 4px;
+}
+
+.grid-Container-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:60px 25px;
+    gap: 30px;
+    
+
+}
+
+.grid-Container-top > div{
+    text-align: center;
+    box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+    cursor: pointer;
+
+}
+
+.top {
+    font-size: 40px;
+    color: #136F63;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.come {
+    font-size: 23px;
+    color: #136F63;
+    padding: 10px 40px;
+    text-align: left;
+}
+
+.lorem {
+    font-size: 15px;
+    padding: 10px 40px;
+    text-align: left;
+}
+
+.date {
+    font-size: 15px;
+    color: #136F63;
+    text-align: right;
+    padding: 8px 20px;
+}
+
+}
+
+
+
+
+
+/* ===========================Tablet===================================== */
+@media screen and (max-width:800px){
+
+    .header-container {
+        box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+        width: 100%;
+    }
+    
+    .read {
+        padding: 20px 19px;
+        color: #136F63 ;
+        font-size: 20px;
+        
+    }
+    
+    
+    .success {
+        align-items: right;
+        width: 120px;
+        background: #22AAA1;
+        border-radius: 4px;
+    }
+    
+    .grid-Container-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:60px 25px;
+        gap: 30px;
+        
+    
+    }
+    
+    .grid-Container-top > div{
+        text-align: center;
+        box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+        cursor: pointer;
+    
+    }
+    
+    .top {
+        font-size: 40px;
+        color: #136F63;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .come {
+        font-size: 23px;
+        color: #136F63;
+        padding: 10px 40px;
+        text-align: left;
+    }
+    
+    .lorem {
+        font-size: 15px;
+        padding: 10px 40px;
+        text-align: left;
+    }
+    
+    .date {
+        font-size: 15px;
+        color: #136F63;
+        text-align: right;
+        padding: 8px 20px;
+    }
+    
+    }
